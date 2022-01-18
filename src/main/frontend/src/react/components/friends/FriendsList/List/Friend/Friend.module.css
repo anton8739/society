@@ -1,0 +1,38 @@
+.friend {
+    display: grid;
+    grid-template-columns: fit-content(30%) 1fr 50px;
+    width: inherit;
+    background-color: #ffffff;
+    border-bottom: 1px #e4eaf1 solid;
+}
+.img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.username {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #3e6fa3;
+}
+.work {
+    font-size: 12px;
+    color: #a0a6af;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.addMessage {
+    color: #3e6fa3;
+    font-size: 12px;
+}
+.friendMenu {
+    padding: 10px;
+    font-size: 16px;
+    color: slategrey;
+}
+.friendMenu i:hover {
+    color: #a0a6af;
+    cursor: pointer;
+}

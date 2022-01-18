@@ -1,0 +1,10 @@
+.currentVolume {
+    align-self: center;
+    display: block;
+    width: 70px;
+    height: 2px;
+    border: 5px solid #ffffff;
+}
+.currentVolume:hover {
+    cursor: pointer;
+}

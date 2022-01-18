@@ -1,0 +1,36 @@
+.img {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.group {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.info {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+.groupTitle {
+    color: #3e6fa3;
+}
+.groupTitle:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.description {
+    color: slategrey;
+}
+.description :hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.addToGroups {
+    color: #3e6fa3;
+}
+.addToGroups:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

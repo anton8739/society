@@ -1,0 +1,34 @@
+.main {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ecedf0;
+}
+.content {
+    display: grid;
+    background-color: #ecedf0;
+    grid-template-columns: 1Fr  3Fr;
+    padding-top: 50px;
+    padding-bottom: -50px;
+    min-height: 100vh;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.header {
+
+}
+.leftMenu {
+    justify-self: center;
+}
+.news {
+    justify-self: left;
+    display: grid;
+    grid-template-columns: 2fr 1Fr;
+    width: 100%;
+}
+.newsBar {
+
+}
+.rightMenu{
+
+}

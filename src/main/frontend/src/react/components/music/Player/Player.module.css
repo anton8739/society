@@ -1,0 +1,10 @@
+.player {
+    display: grid;
+    grid-template-columns: 50px 15px 15px 1fr 100px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e4eaf1;
+    margin-top: 10px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+    padding: 5px;
+}

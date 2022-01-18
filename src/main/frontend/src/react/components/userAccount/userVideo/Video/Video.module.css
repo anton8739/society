@@ -1,0 +1,15 @@
+.video {
+    padding-top: 10px;
+}
+.imgVideo {
+    object-fit: cover;
+    width: 200px;
+    height: 100px;
+}
+.description {
+    width: 200px;
+    font-size: 12px;
+    color: #3e6fa3;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

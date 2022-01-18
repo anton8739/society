@@ -1,0 +1,17 @@
+.main {
+    height: fit-content;
+    border-left: 1px solid #e4eaf1;
+    border-bottom: 1px solid #e4eaf1;
+}
+.showMore {
+    background-color: #ecedf0;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+    color: slategrey;
+}
+.showMore:hover {
+    cursor: pointer;
+}

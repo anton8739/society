@@ -1,0 +1,22 @@
+.fotoBar {
+    background-color: #333333;
+    height: inherit;
+    color: #ffffff;
+    border-radius: 5px 0px 0px 5px;
+}
+.btns {
+    visibility: hidden;
+    align-self: center;
+    justify-self: center;
+}
+
+.fotoBar:hover .btns {
+    visibility: visible;
+}
+.fotoPart {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+}
+.foto {
+    justify-self: center;
+}

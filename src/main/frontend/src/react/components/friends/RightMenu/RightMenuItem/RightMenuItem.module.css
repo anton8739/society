@@ -1,0 +1,19 @@
+.item {
+    display: block;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.item:hover {
+    background-color: #eff1f5;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #eff1f5;
+    border-left: 3px solid #5077b9;
+}

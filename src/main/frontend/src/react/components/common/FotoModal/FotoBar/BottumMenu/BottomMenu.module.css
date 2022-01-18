@@ -1,0 +1,25 @@
+.myfoto {
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    margin-top: 10px;
+}
+.myfoto div {
+    font-size: 12px;
+    color : slategrey;
+}
+.link {
+    font-size: 12px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.bar {
+    display: grid;
+    grid-template-columns: fit-content(20%) fit-content(20%)  fit-content(20%) ;
+}
+.bar div {
+    margin-left: 20px;
+    font-size: 12px;
+    color : slategrey;
+
+}

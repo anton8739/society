@@ -1,0 +1,29 @@
+.img {
+    margin-top: 10px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    justify-self: center;
+}
+.user {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 150px;
+    border-radius: 5px;
+    border: #dbe0e6 solid 1px;
+    padding: 0px 5px 30px 5px;
+    margin: 10px;
+}
+.username {
+    padding-top: 10px;
+    justify-self: center;
+}
+.close {
+    color: #dbe0e6;
+    font-weight: 300;
+    justify-self: right;
+    padding: 5px;
+}
+.user:hover {
+    cursor: pointer;
+}

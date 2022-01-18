@@ -1,0 +1,9 @@
+.previos {
+    align-self: center;
+    font-size: 14px;
+    color: #8098c2;
+}
+.previos:hover {
+    color: #4a6da8;
+    cursor: pointer;
+}

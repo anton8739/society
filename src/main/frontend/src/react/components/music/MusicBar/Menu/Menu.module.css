@@ -1,0 +1,21 @@
+.menu {
+    display: grid;
+    grid-template-columns: fit-content(30%) fit-content(30%) 1fr ;
+    background-color: #fafbfc;
+    border-bottom: 1px solid #e4eaf1;
+    margin-top: 10px;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+}
+.item {
+
+    font-size: 14px;
+    display: block;
+    width: fit-content;
+    padding: 10px 10px 20px 10px;
+    margin: 10px 10px 0px 10px;
+    color: #333333;
+    text-decoration: none;
+    border-bottom: 2px solid #3e6fa3;
+}
+

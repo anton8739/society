@@ -1,0 +1,33 @@
+.menu {
+    display: grid;
+    grid-template-columns: 2fr  1fr  ;
+    background-color: #fafbfc;
+    border-bottom: 1px solid #e4eaf1;
+    margin-top: 10px;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+}
+.album {
+    padding: 20px;
+}
+.albumTitle {
+    font-size: 16px;
+    font-weight: 400;
+}
+.albumNumber {
+    color: slategrey;
+    font-size: 14px;
+    padding-left: 5px;
+}
+.comments {
+    font-size: 12px;
+    color: #3e6fa3;
+    align-self: center;
+    justify-self: right;
+    padding-right: 20px;
+}
+.comments:hover {
+
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <include file="01-changeset-users-table/01-changeset-users-table.xml" relativeToChangelogFile="true"/>
+    <include file="02-changeset-add-users/02-changeset-add-users.xml" relativeToChangelogFile="true"/>
+    <include file="03-changeset-friends-table/03-changeset-friends-table.xml" relativeToChangelogFile="true"/>
+    <include file="04-changeset-add-friends/04-changeset-add-friends.xml" relativeToChangelogFile="true"/>
+    <include file="05-changeset-foto-table/05-changeset-foto-table.xml" relativeToChangelogFile="true"/>
+    <include file="06-changeset-add-foto/06-changeset-add-foto.xml" relativeToChangelogFile="true"/>
+    <include file="07-changeset-video-table/07-changeset-video-table.xml" relativeToChangelogFile="true"/>
+    <include file="08-changeset-add-video/08-changeset-add-video.xml" relativeToChangelogFile="true"/>
+    <include file="09-changeset-audio-table/09-changeset-audio-table.xml" relativeToChangelogFile="true"/>
+    <include file="10-changeset-add-audio/10-changeset-add-audio.xml" relativeToChangelogFile="true"/>
+</databaseChangeLog>

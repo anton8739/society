@@ -1,0 +1,9 @@
+.menu {
+    background-color: #ffffff;
+    border-radius: 5px 5px 0px 0px;
+    padding: 15px 0px 0px 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+    margin: 0px 10px 0px 10px;
+    border-bottom: 1px solid #e4eaf1;
+
+}

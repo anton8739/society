@@ -1,0 +1,21 @@
+.close {
+    display: block;
+    width: fit-content;
+    line-height: 35px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: 20px;
+}
+.close:hover {
+    cursor: pointer;
+}
+.mainModal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 95vh;
+    color: #333333;
+    margin:  -45px 15% 0px 15%;
+
+}

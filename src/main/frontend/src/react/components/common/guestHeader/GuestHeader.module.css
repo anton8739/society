@@ -1,0 +1,10 @@
+.header {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    background-color: #fafbfc;
+    border-bottom: 1px solid #ecedf0;
+
+}

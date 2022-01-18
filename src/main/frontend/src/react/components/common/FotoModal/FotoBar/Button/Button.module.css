@@ -1,0 +1,8 @@
+.btn {
+    font-size: 35px;
+    margin: 5px;
+}
+.btn:hover {
+    cursor: pointer;
+    color: #9ea4ae;
+}

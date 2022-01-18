@@ -1,0 +1,79 @@
+.item {
+    margin: 5px;
+
+}
+
+.imgWrapper {
+    display: block;
+    width: 240px;
+    height: 120px;
+    border-radius: 2px;
+}
+.imgWrapper:hover {
+    cursor: pointer;
+}
+.imgWrapper:hover .hidden {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+    color: #a0a6af;
+
+}
+.close {
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    justify-self: right;
+    background-color: rgba(3,3,3,0.5);
+    padding: 1px 5px 1px 5px;
+}
+.play {
+    margin-top: -10px;
+    font-size: 48px;
+    justify-self: center;
+    color: rgba(3,3,3,0.5);
+
+}
+.time {
+    font-size: 12px;
+    margin-right: 5px;
+    justify-self: right;
+    background-color: rgba(3,3,3,0.5);
+    color: #ffffff;
+    padding: 3px 10px 3px 10px;
+}
+.hiddenMenu {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.title {
+    color: #3e6fa3;
+    font-size: 12px;
+    font-weight: 600;
+}
+.title:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.author:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.author {
+    color: #3e6fa3;
+    font-size: 12px;
+    font-weight: 400;
+}
+.views {
+    display: block;
+    float: left;
+    color: slategrey;
+    font-size: 12px;
+    padding-right: 5px;
+}
+.data {
+    color: slategrey;
+    font-size: 12px;
+}

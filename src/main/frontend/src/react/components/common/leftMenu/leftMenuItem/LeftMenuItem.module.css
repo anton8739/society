@@ -1,0 +1,32 @@
+
+.link i {
+    color: #5077b9;
+    padding-right: 10px;
+}
+.link {
+    display: block;
+    padding-left: 10px;
+    padding-right: 40px;
+    line-height: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    background-color: #ecedf0;
+}
+
+.link:hover {
+    background-color: #dbe0e6;
+    cursor: pointer;
+}
+.link:hover i.hidden {
+    transition: 1s ease-out;
+    transition-delay: 0.5s;
+    visibility: visible;
+    opacity: 0.4;
+}
+.hidden {
+    padding-left: 5px;
+    visibility: hidden;
+    color: grey;
+    opacity: 0;
+}

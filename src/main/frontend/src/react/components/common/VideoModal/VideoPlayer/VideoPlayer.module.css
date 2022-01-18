@@ -1,0 +1,63 @@
+.videoPlayer {
+    grid-area: player;
+    width: 800px;
+    height: 450px;
+    position: relative;
+    background-color: black;
+}
+.fullscreen {
+    position: absolute; top: 0; left: 0;
+    width: 100%; height: 100%;
+
+}
+.controls {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+.topMenu {
+    justify-self: right;
+}
+.topTab {
+    background-color: rgba(120,120,120,0.5);
+    color: #ffffff;
+    border-radius: 3px;
+    width: 25px;
+    line-height: 25px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+}
+.topTab:hover {
+    background-color: slategrey;
+    cursor: pointer;
+}
+.bottomMenu {
+    align-self: end;
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 50px 50px 1fr 50px 50px 1fr 50px 50px ;
+}
+.bottomMenuBtn {
+    font-size: 18px;
+    padding: 10px;
+}
+.bottomMenuBtn:hover {
+    cursor: pointer;
+    color: slategrey;
+}
+.volume {
+    align-self: center;
+    width: fit-content;
+    margin: 10px;
+
+}
+.duration {
+    align-self: center;
+}

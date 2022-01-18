@@ -1,0 +1,57 @@
+.menu {
+    display: grid;
+    grid-template-columns: 2fr  1fr 1fr ;
+    background-color: #fafbfc;
+    border-bottom: 1px solid #e4eaf1;
+    margin-top: 10px;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+}
+.album {
+    padding: 20px;
+}
+.albumTitle {
+    font-size: 16px;
+    font-weight: 400;
+}
+.albumNumber {
+    color: slategrey;
+    font-size: 14px;
+    padding-left: 5px;
+}
+.create {
+    justify-self: right;
+    align-self: center;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    margin: 10px;
+    background-color: #e4eaf1 ;
+    color: #3e6fa3;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 3px;
+}
+.create:hover {
+    background-color: #e0e7ee;
+    cursor: pointer;
+}
+.add {
+    justify-self: left;
+    align-self: center;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    margin: 10px;
+    background-color: #5077b9 ;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 3px;
+}
+.add:hover {
+    background-color: #6486c1;
+    cursor: pointer;
+}

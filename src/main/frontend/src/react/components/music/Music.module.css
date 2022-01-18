@@ -1,0 +1,28 @@
+.main {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ecedf0;
+
+}
+.content {
+    display: grid;
+
+    grid-template-columns: 1Fr  3Fr;
+    padding-top: 50px;
+    padding-bottom: -50px;
+    min-height: 100vh;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.header {
+
+}
+.leftMenu {
+    justify-self: center;
+}
+.music {
+    justify-self: left;
+    width: 100%;
+}
+

@@ -1,0 +1,35 @@
+.song {
+    display: grid;
+    grid-template-columns: 80px 1fr 80px ;
+    margin: 5px;
+    padding: 5px;
+}
+.song:hover {
+    background-color: #eff1f5;
+    cursor: pointer;
+}
+.active {
+    background-color: #eff1f5;
+}
+.img {
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+}
+.songContext {
+    align-self: center;
+}
+.title {
+    font-size: 12px;
+    color: #333333;
+}
+.author {
+
+    font-size: 12px;
+    color: slategrey;
+}
+.time {
+    align-self: center;
+    font-size: 12px;
+    color: slategrey;
+}

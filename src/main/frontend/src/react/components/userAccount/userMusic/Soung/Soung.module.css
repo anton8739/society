@@ -1,0 +1,20 @@
+.item {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding-top: 10px;
+    width: 200px;
+}
+.img {
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    padding-right: 5px;
+}
+.title {
+    font-size: 12px;
+
+}
+.author {
+    font-size: 10px;
+    color: #708090;
+}

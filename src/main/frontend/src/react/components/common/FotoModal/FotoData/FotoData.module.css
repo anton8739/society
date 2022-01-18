@@ -1,0 +1,11 @@
+.fotoData {
+    display: grid;
+    grid-template-rows: fit-content(20%) fit-content(20%) 1fr;
+    background-color: #ffffff;
+    height: inherit;
+    color: #333333;
+    border-radius: 0px 5px 5px 0px;
+}
+.addComment {
+    align-self: end;
+}

@@ -1,0 +1,17 @@
+.logo {
+    justify-self: right;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.logoImg {
+    justify-self: right;
+    align-self: center;
+    width: 30px;
+    height: 30px;
+}
+
+.text {
+    align-self: center;
+    margin-left: 10px;
+    line-height: 30px;
+}

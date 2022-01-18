@@ -1,0 +1,63 @@
+.comment {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    font-size: 12px;
+    margin-top: 10px;
+    border-bottom: 1px solid #e4eaf1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.comment:hover {
+    background-color: #eff1f5;
+    cursor: pointer;
+}
+
+.img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+    justify-self: right;
+}
+
+.username {
+    font-weight: 500;
+    color: #3e6fa3;
+}
+
+.username:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.time {
+    float: left;
+    color: slategrey;
+    display: block;
+
+}
+.answerBar {
+    display: grid;
+    grid-template-columns: fit-content(40%)  100px 1Fr;
+}
+.time:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.answer {
+    color: #3e6fa3;
+    padding-left: 10px;
+    justify-self: left;
+}
+.answer:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.like {
+    justify-self: right;
+    padding-right: 10px;
+}
+.like span {
+    padding-right: 5px;
+}

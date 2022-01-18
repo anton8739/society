@@ -1,0 +1,59 @@
+.img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-self: center;
+}
+.inputBlock {
+    display: grid;
+    grid-template-columns: fit-content(20%) 1fr;
+}
+.addComment {
+    border-top: 1px solid #e0e7ee;
+    padding: 10px;
+}
+.inputBlock input {
+    width: 100%;
+    text-indent: 1.5em;
+    border: none;
+    line-height: 50px;
+    align-self: center;
+}
+.bar {
+    display: grid;
+    grid-template-columns: fit-content(20%) 1fr fit-content(20%);
+}
+.clip{
+    align-self: center;
+    font-size: 14px;
+    color: rgba(120,120,120,1);
+    margin-left: 10px;
+}
+.clip:hover {
+    cursor: pointer;
+}
+.abort {
+    justify-self: right;
+    font-size: 12px;
+    background-color: #e4eaf1;
+    padding: 5px 15px 5px 15px;
+    margin: 10px;
+    border-radius: 3px;
+    color: rgba(120,120,120,1);
+}
+.abort:hover {
+    cursor: pointer;
+    color: rgba(120,120,120,0.5);
+}
+.send {
+    background-color: #5077b9;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 5px 15px 5px 15px;
+    margin: 10px;
+    border-radius: 3px;
+}
+.send:hover {
+    cursor: pointer;
+    background-color: #6486c1;
+}

@@ -1,0 +1,11 @@
+.currentVolume {
+    display: block;
+    width: 70px;
+    height: 5px;
+}
+.currentVolume:hover {
+    cursor: pointer;
+}
+.root {
+    width: 100px;
+}

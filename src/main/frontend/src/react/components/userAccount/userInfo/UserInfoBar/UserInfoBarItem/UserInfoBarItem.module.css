@@ -1,0 +1,15 @@
+.number {
+    color: #5077b9;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+.title {
+    font-size: 12px;
+    color: #9ea4ae;
+    text-align: center;
+}
+.title:hover {
+    color: #5077b9;
+    cursor: pointer;
+}

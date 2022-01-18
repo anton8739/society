@@ -1,0 +1,31 @@
+.menu {
+    display: grid;
+    grid-template-columns: 70px 70px 1fr;
+    border-top: 1px solid #e4eaf1;
+    font-size: 16px;
+    color: #9ea4ae;
+
+}
+.likesBlock {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.shareBlock {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.viewsBlock {
+    padding-top: 10px;
+    padding-bottom: 10px;
+     justify-self: right;
+     margin-right: 20px;
+
+}
+.menu i {
+    padding-right: 10px;
+    font-size: 24px;
+}
+.menu i:hover {
+    cursor: pointer;
+    color: slategrey;
+}

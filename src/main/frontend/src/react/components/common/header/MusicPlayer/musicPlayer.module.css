@@ -1,0 +1,25 @@
+
+.player {
+
+    display: grid;
+    grid-template-columns: 30px 30px 30px 1fr;
+    width: 80%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.player:hover {
+    cursor: pointer;
+    background-color: #f7f7fa;
+}
+.player i {
+    align-self: center;
+    color: #a0a6af;
+    font-size: 20px;
+}
+.text {
+    align-self: center;
+    color: #a0a6af;
+}

@@ -1,0 +1,92 @@
+.main {
+
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+    margin: 20px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.name{
+    width: 250px;
+    line-height: 30px;
+    display: block;
+    border-radius: 5px;
+    border: #a0a6af solid 1px;
+    padding-left: 10px;
+    margin: 20px 30px 10px 30px;
+    justify-self: center;
+}
+.surname{
+    width: 250px;
+    line-height: 30px;
+    display: block;
+    border-radius: 5px;
+    border: #a0a6af solid 1px;
+    padding-left: 10px;
+    margin: 10px 30px 10px 30px;
+    justify-self: center;
+}
+.h1 {
+    font-size: 18px;
+    font-weight: 500;
+    justify-self: center;
+    margin: 10px 30px 0px 30px;
+}
+.h2 {
+    font-size: 12px;
+    color: slategrey;
+    font-weight: 400;
+    justify-self: center;
+    margin: 5px 30px 0px 30px;
+}
+.data {
+    color: slategrey;
+    font-size: 12px;
+    padding-left: 30px;
+}
+.data i {
+    padding-left: 10px;
+    font-size: 14px;
+}
+.data i:hover {
+    cursor: pointer;
+}
+.btn {
+    background-color: #00c24e;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 35px;
+    margin: 10px 30px 20px 30px;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: #1ec963;
+}
+.selectBlock {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px 20px 0px 20px;
+
+}
+.select {
+   background-color: #ffffff;
+    border-radius: 3px;
+    border: #a0a6af solid 1px;
+    height: 35px;
+    margin: 0px 10px 0px 10px;
+    color: slategrey;
+    padding-left: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.select:hover {
+    cursor: pointer;
+}
+.select option {
+    background-color: #ffffff;
+    height: 50px;
+}

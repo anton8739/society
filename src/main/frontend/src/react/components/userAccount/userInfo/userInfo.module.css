@@ -1,0 +1,51 @@
+.main {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+    margin: 10px;
+}
+.userBar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.username {
+    font-size: 16px;
+    font-weight: 500;
+}
+.time {
+    font-size: 12px;
+    color: #9ea4ae;
+    justify-self: right;
+}
+.status {
+    font-size: 12px;
+    color: #9ea4ae;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e4eaf1;
+}
+.infoItem {
+    display: inline-block;
+    font-size: 12px;
+    width: 150px;
+    color: #9ea4ae;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+.infoItemText {
+    font-size: 12px;
+    color: #5077b9;
+}
+.infoBtn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 12px;
+    color: #5077b9;
+}
+.infoBtn:hover {
+    background-color: #eff1f5;
+    cursor: pointer;
+}

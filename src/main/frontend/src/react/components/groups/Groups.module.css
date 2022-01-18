@@ -1,0 +1,44 @@
+.main {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ecedf0;
+}
+.content {
+    display: grid;
+    background-color: #ecedf0;
+    grid-template-columns: 1Fr  3Fr;
+    padding-top: 50px;
+    padding-bottom: -50px;
+    min-height: 100vh;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.header {
+
+}
+.leftMenu {
+    justify-self: center;
+}
+.groups {
+    justify-self: left;
+    display: grid;
+    width: 100%;
+    grid-template-areas: 'friendsList   RightMenu'
+    'friendsList   PossibleFriends';
+    grid-template-rows: min-content 1fr;
+}
+.groupsList {
+    grid-area: friendsList;
+
+}
+.possibleGroups {
+    grid-area: PossibleFriends;
+
+
+}
+.rightMenu {
+    grid-area: RightMenu;
+
+
+}

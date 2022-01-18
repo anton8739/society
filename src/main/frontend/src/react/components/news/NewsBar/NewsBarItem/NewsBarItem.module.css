@@ -1,0 +1,97 @@
+.item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+    padding: 5px;
+    border-radius: 5px;
+}
+.img {
+   width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+}
+.publisher {
+    display: block;
+    font-size: 12px;
+    color: #3e6fa3;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.time {
+    display: block;
+    font-size: 12px;
+    color: slategrey;
+
+}
+.text {
+    font-size: 12px;
+    color: #333333;
+    clear: both;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    font-weight: 400;
+}
+.fotoWraper {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.foto {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+.bottomMenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 4fr;
+    border-top: 1px solid #e4eaf1;
+    margin: 10px;
+    padding-top: 10px;
+
+}
+.bottomMenuBtn {
+    display: block;
+    color: slategrey;
+    padding-left: 10px;
+}
+.bottomMenuBtnIcon {
+    font-size: 20px;
+}
+.bottomMenuBtnText {
+    padding: 5px;
+
+    font-size: 16px;
+}
+.bottomMenuViews {
+    display: block;
+    color: slategrey;
+    padding-left: 10px;
+    justify-self: right;
+}
+.commentBlock {
+    border-top: 1px solid #e4eaf1;
+}
+.commentSort {
+    color: #3e6fa3;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.commentSort:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.next {
+    font-weight: 500;
+    color: #3e6fa3;
+    padding: 10px;
+    font-size: 12px;
+}
+.next:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

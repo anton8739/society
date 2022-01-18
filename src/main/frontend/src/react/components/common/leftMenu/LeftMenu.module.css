@@ -1,0 +1,9 @@
+.menu {
+    background-color: #ffffff;
+    margin: 10px;
+}
+@media (max-width: 1000px) {
+    .menu {
+        display: none;
+    }
+}

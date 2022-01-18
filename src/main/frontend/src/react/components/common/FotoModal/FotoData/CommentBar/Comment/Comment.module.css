@@ -1,0 +1,45 @@
+.img {
+    width :40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.comment {
+    display: grid;
+    grid-template-columns: fit-content(20%) 1fr;
+    padding: 10px;
+    border-bottom: 1px solid #e0e7ee;
+}
+.commentMenu {
+    display: grid;
+    grid-template-columns: fit-content(40%) fit-content(40%);
+}
+.username {
+    font-size: 12px;
+    color: #3e6fa3;
+    font-weight: 500;
+    padding-left: 20px;
+}
+.username:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.text {
+    font-size: 12px;
+    color: #333333;
+    padding-left: 20px;
+}
+.data {
+    font-size: 12px;
+    color: slategrey;
+    padding-left: 20px;
+}
+.answer {
+    font-size: 12px;
+    color: #3e6fa3;
+    font-weight: 500;
+    padding-left: 20px;
+}
+.answer:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
